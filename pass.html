@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pass.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <h1>Password Generator</h1>
+        </div>
+        <div id="span-div">
+           <span id="inputEl">Click Generate Password to Take Password</span>
+        </div>
+        <div id="rangeId">
+            <label for="rangeEl" id="rg">Password Should be Min 5 & Max 15 Latters</label>
+            <input type="range" min="5" max="15" id="rangeEl">
+        </div>
+        <div class="wraper">
+            <label for="first">Include Uppercase</label>
+            <input type="checkbox" id="upper" class="check">
+        </div>
+        <div class="wraper">
+            <label for="second">Include Lowercase</label>
+            <input type="checkbox" id="lower" class="check">   
+        </div>
+        <div class="wraper">
+            <label for="third">Include Numbers</label>
+            <input type="checkbox" id="number" class="check">       
+                   
+        </div>
+        <div class="wraper">
+            <label for="fourth">Include Symbols</label>
+            <input type="checkbox" id="symbol" class="check">      
+            
+        </div>
+        <div>
+            <button id="generate">GENERATE PASSWORD</button>
+        </div>
+    </div>
+
+    <script src="./pass.js"></script>
+</body>
+</html>
